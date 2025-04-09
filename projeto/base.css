@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+    font-family: arial;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu li{
+    margin-bottom: 100px;
+    color: solid black;
+}
+.menu ul li a {
+    color: black;
+}
+.menu {
+    border: solid 5px black;
+    width: 15%;
+    background-color: rgb(213, 218, 218);
+    padding: 100px 20px 0px;
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-bottom: solid 5px black;
+    border-top: solid 5px black;
+    border-right: solid 5px black;
+}
+.header img{
+    height: 300px;
+    width: 300px;
+}
+.content {
+    background-color: white;
+    padding: 20px;
+    border-right: solid 5px black;
+}
+.content p{
+    font-size: 20px;
+}
+.footer {
+    background-color: rgb(168, 159, 196);
+    min-height: 150px;
+    border-right: solid 5px black;
+    border-top: solid black 5px;
+    border-bottom: solid 5px black;
+    padding: 20px;
+}
+.form{
+    border-right: solid 5px black;
+    padding: 20px;
+    
+}
+.footer b{
+    font-size: 20px;
+}
